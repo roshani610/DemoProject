@@ -4,6 +4,6 @@ import { ZooComponent } from './zoo/zoo.component';
 
 export const routes: Routes = [
     {path:'', redirectTo: 'home', pathMatch: 'full'},
-    {path: 'home', component: ZooComponent},
+    {path: 'home', component: Page1Component},
     {path: '**', redirectTo: 'home'}
 ];
